@@ -1,0 +1,36 @@
+{
+	"name": "TODO",
+	"version": "0.0.1",
+	"description": "TODO",
+	"repository": "https://github.com/TODO/TODO",
+	"author": "TODO",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"start": "vite --open",
+		"build": "tsc && vite build --base='./'",
+		"preview": "vite preview --host --open"
+	},
+	"devDependencies": {
+		"typescript": "^5.0.4",
+		"vite": "^4.2.1",
+		"vite-plugin-html": "^3.2.0"
+	},
+	"dependencies": {
+		"@thi.ng/api": "latest",
+		"@thi.ng/hiccup-html": "latest",
+		"@thi.ng/rdom": "latest",
+		"@thi.ng/rstream": "latest",
+		"@thi.ng/transducers": "latest"
+	},
+	"browsersList": [
+		"last 3 chrome versions"
+	],
+	"browser": {
+		"process": false
+	},
+	"keywords": [
+		"thing-umbrella",
+		"typescript"
+	]
+}
