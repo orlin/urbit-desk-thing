@@ -1,2 +1,10 @@
+.DS_Store
+*~
+.#*
+
 /dist
 /export
+
+yarn.lock
+node_modules
+npm-debug.log
